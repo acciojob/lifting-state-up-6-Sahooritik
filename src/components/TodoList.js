@@ -13,7 +13,7 @@ const TodoList = ({todos, handleComplete})=>{
                     <li key = {index}>{value.text}{!value.completed && <button onClick={()=>{
                         handleComplete(value.id)
 
-                    }}>completed</button>}</li>
+                    }}>complete</button>}</li>
                     
                 )
             })}
